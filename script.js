@@ -42,8 +42,6 @@ class Canvas extends Raf {
         super();
 
         // Get the element and attach the 2d context
-        console.log('document.getElementById(obj.id)');
-        console.log(document.getElementById(obj.id));
         this.canvas = document.getElementById(obj.id);
         this.ctx = this.canvas.getContext('2d');
 
